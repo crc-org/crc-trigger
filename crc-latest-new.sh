@@ -37,7 +37,7 @@ function create_yaml_file(){
         status=$pendingStatus
         if [[ $1 == "windows" ]]; then
             vm="hyperv"
-            builder="secret-windows-1-blr"
+            builder="secret-win10-podman-desktop"
             tester="secret-windows-1-brno"
         elif [[ $1 == mac* ]]; then
             vm="vfkit"
